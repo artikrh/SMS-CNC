@@ -53,6 +53,8 @@ After you have set up a Twilio phone number, you only need to write further Pyth
 ```
 This means that if the string `killbill2` is detected in the inbound SMS message from our phone number (which we registered Twilio account with), it is going to reply an answer of "Killed Bill 2".  
 
+![PoC](https://i.imgur.com/qyvjVC5.jpg)
+
 Furthermore, there is another function defined called `removeHead()` which could allow you to perform the following scenario as an example:  
 * Receive a SMS `message` with the content of: "cmd ls -lah"
 * cmd = removeHead(message,"cmd") # means that `cmd = "ls -lah"`
