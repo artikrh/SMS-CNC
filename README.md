@@ -22,6 +22,7 @@ Python 2.7.X
 Since we are going to use the Twilio API and Flask, we are going to install the python libraries using PIP as a packet manager:
 ```
 $ git clone https://github.com/artikrh/SMS-CCC
+$ cd SMS-CCC
 $ sudo pip install -r requirements.txt
 ```
 Run the Flask application:
