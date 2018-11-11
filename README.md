@@ -1,5 +1,11 @@
 # SMS C&C with Python and Twilio
 
+### Table of Contents
+  - [1. Overview](#1-overview)
+  - [2. System Architecture](#2-system-architecture)
+  - [3. Installation](#3-installation)
+  - [4. Usage](#4-usage)
+
 ## 1. Overview
 
 The objective of this project is to build and implement a SMS bot using Python and the Twilio API (Application Programmable Interface). This will allow arbitrary function implementations that will be invoked by a simple text message over the 2G GSM (Global System for Mobile) network - without the need of even using 3G/LTE connections.
